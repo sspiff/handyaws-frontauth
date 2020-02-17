@@ -1,0 +1,39 @@
+{
+  "name": "@sspiff/handyaws-frontauth",
+  "version": "0.1.0",
+  "description": "Custom AWS CloudFront authorization with JSON web tokens",
+  "main": "src/index.js",
+  "files": [
+    "src/*.js"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@sspiff)/)"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspiff/handyaws-frontauth.git"
+  },
+  "publishConfig": {
+    "register": "https://npm.pkg.github.com/"
+  },
+  "author": "sspiff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspiff/handyaws-frontauth/issues"
+  },
+  "homepage": "https://github.com/sspiff/handyaws-frontauth#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "@sspiff/handy-keypair": "^0.1.0",
+    "@sspiff/handyaws": "^0.1.0"
+  }
+}
