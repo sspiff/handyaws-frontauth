@@ -77,11 +77,11 @@ import setCookieResponse from './setCookieResponse'
  *
  * Notes on `cfg.jwtVerifyOptions`:
  *
- * | Option           | Notes                                           |
- * | ---------------- | ----------------------------------------------- |
- * | `algorithms`     | Separate multiple algorithms with spaces        |
- * | `clockTolerance` | Will be converted an integer using `parseInt()` |
- * | `maxAge`         | Is not swizzled, so use e.g. `10s` for seconds  |
+ * | Option           | Notes                                              |
+ * | ---------------- | -------------------------------------------------- |
+ * | `algorithms`     | Separate multiple algorithms with spaces           |
+ * | `clockTolerance` | Will be converted to an integer using `parseInt()` |
+ * | `maxAge`         | Is not swizzled, so use e.g. `10s` for seconds     |
  *
  * @function frontAuth
  * @memberof module:@sspiff/handyaws-frontauth
