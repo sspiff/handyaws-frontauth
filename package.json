@@ -1,6 +1,6 @@
 {
   "name": "@sspiff/handyaws-frontauth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom AWS CloudFront authorization with JSON web tokens",
   "main": "src/index.js",
   "files": [
